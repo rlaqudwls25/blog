@@ -1,3 +1,3 @@
 # blog
 
-!(/images/메인.jpg)
+![main](/images/메인.jpg)
