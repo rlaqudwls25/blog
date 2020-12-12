@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/simantic-ui/semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/detail.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="stylesheets/simantic-ui/semantic/semantic.js"></script>
+
+</head>
+<body style="height: 100%">
+<div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+            <a href="main.html" class="active item">Home</a>
+        </div>
+    </div>
+</div>
+
+<div class="inner_index">
+    <div class="detail_list index_type_common" >
+        <ul class="detail_content_ul">
+            <li class="detail_content">
+                <div class="article_content">
+                    <div class="info_post">
+                        <div class="title_view"><span>제목</span></div>
+                        <div>카테고리</div>
+                        <div class="date">년 월 일 시간 분</div>
+                        <div class="content_image_sns">
+                        <div>
+                            <span>내용</span>
+                        </div>
+                            <div>
+                                <img src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                            </div>
+                            <div class="sns-go">
+                                <ul style="width: 760px">
+                                    <li>
+                                        <a href="#" onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url=' +encodeURIComponent(document.URL)+'&title='+encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Naver" ><img src="images/naver.png" width="40" alt="네이버 블러그 공유하기"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Facebook" ><img src="images/facebook.png" width="40" alt="페이스북 공유하기"></a>
+                                    </li>
+                                    <li>
+                                        <a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Twitter" ><img src="images/twiter.png" width="40" alt="트위터 공유하기"></a>
+                                    </li>
+                                    <li>
+                                        <a href="javascript:shareKatalk()"><img src="images/kakaotalk.png" width="40" alt="카카오톡 공유하기"></a></li>
+                                    <li>
+                                        <a href="#" onclick="javascript:window.open('https://story.kakao.com/s/share?url=' +encodeURIComponent(document.URL), 'kakaostorysharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes, height=400,width=600');return false;" target="_blank" alt="Share on kakaostory"><img src="images/story.png" width="40" alt="카카오스토리 공유하기"></a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                </div>
+            </li>
+        </ul>
+</div>
+    <div class="reply_comment">
+        <div class="form_comment">
+            <textarea id="comment" placeholder="댓글을 입력해주세요"></textarea>
+            <div class="space_comment">
+            <button type="button" class="ui black button">등록</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

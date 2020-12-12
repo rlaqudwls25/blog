@@ -1,0 +1,141 @@
+
+/*i{*/
+/*    margin-top: 5px!important;*/
+/*}*/
+
+a{
+    border-bottom-style: none !important;
+}
+
+ul{
+    padding-inline-start: 0 !important;
+}
+
+/* 메인 화면 규격 */
+#main_div{
+    position: relative;
+    max-width: 100%;
+    background-color: white;
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* more post 버튼 */
+#show{
+    width: 550px;
+    margin-bottom: 20px;
+}
+
+/* 메인 하단 이미지 */
+.image_sub{
+    width: 250px;
+    height: 200px;
+    padding-bottom: 30px;
+}
+
+/* 메인 하단 */
+.footer{
+    background: black;
+    padding: 50px;
+    margin: 0em;
+    border-radius: 0px;
+    font-size: 1rem;
+}
+
+/* 로그인 회원가입 간격 */
+.space_main{
+    width: 10px;
+}
+
+/* 메인 가운데 규격 */
+.main_top{
+    margin: 0 35%;
+    width: 550px;
+    overflow: hidden;
+}
+
+/*.sns_list{*/
+/*    padding-top: 10px;*/
+/*}*/
+
+/* 푸터 sns 아이콘 배치*/
+.sns-go{
+    width: 100%;
+    text-align: left;
+}
+
+/* 푸터 sns 아이콘 배치*/
+.sns-go li{
+    display: inline-block; margin: 0;
+}
+/* 푸터 sns 아이콘 이미지 모양 변경 */
+.sns-go li img {
+    border-radius: 50%;
+}
+
+/* h1 text 넘침 방지 */
+div.extra h1{
+    overflow: hidden;
+}
+
+/* 숨겨진 게시물 규격 */
+.sub_main{
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* 숨겨진 게시물 내용 규격 */
+.sub_content{
+    margin-left: 15px;
+    width: 27%;
+    overflow: hidden;
+}
+
+/* 좌측 메뉴 nav 바 */
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    height: 0;
+    overflow:hidden;
+    opacity: 1;
+    transition:0.3s;
+    width: 15%;
+}
+
+/* 좌측 nav 바 */
+.menu ul li{
+    color: snow;
+    list-style:square;
+    margin:3rem 0;
+    opacity: 0;
+    font-family: Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,'돋움',sans-serif;
+}
+
+/* 좌측 nav 바 폰트 규격 */
+.sidebar_text{
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    cursor: auto;
+}
+
+/* 좌측 nav 바 폰트 색 */
+.overlay a{
+    color: white;
+}
+
+/* 좌측 nav 바 커서 접촉 시 색 변경 */
+a:hover{
+    text-decoration: none;
+    color: #e7bdbc;
+}
+
+

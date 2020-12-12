@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="stylesheets/simantic-ui/semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/register.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+    <script src="stylesheets/simantic-ui/semantic/semantic.js"></script>
+
+</head>
+<div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+            <a href="main.html" class="item"><i class="home icon"></i>Home</a>
+            <div class="right item">
+                <a href="login.html" class="ui inverted button">로그인</a>
+                <div class="space_main"></div>
+                <a href="register.html" class="ui inverted button">회원가입</a>
+            </div>
+            <div class="ui icon input">
+                <input type="text">
+                <i class="inverted circular search link icon"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<form name="form" method="post" autocomplete="off" onsubmit="return check()">
+    <div id="content">
+        <div class="form_space">
+            <h3><label for="userid">아이디</label></h3>
+            <span class="box int_id">
+                <input type="text" id="userid" class="int" maxlength="10">
+            </span>
+            <span class="error_next_box"></span>
+        </div>
+        <div class="form_space">
+            <h3><label for="password">비밀번호</label></h3>
+            <span class="box int_pass">
+                <input type="password" id="password" class="int" maxlength="20">
+            </span>
+            <span class="error_next_box"></span>
+        </div>
+        <div class="form_space">
+            <h3>
+                <label for="yy">생년원일</label>
+            </h3>
+            <div id="bir_wrap">
+                <div id="bir_yy">
+                <span class="box">
+                    <input type="text" id="yy" class="int" maxlength="4" placeholder="년(4자)">
+                </span>
+                </div>
+                <div id="bir_mm">
+                <span class="box">
+                    <select id="mm" class="sel">
+                        <option>월</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                    </select>
+                </span>
+                </div>
+                <div id="bir_dd">
+                <span class="box">
+                    <input type="text" id="dd" class="int" maxlength="2" placeholder="일(2자)">
+               </span>
+                </div>
+            </div>
+            </div>
+            <span class="error_next_box"></span>
+
+            <div class="form_space">
+                <h3 class="join_title"><label for="gender">성별</label></h3>
+                <span class="box gender_code">
+                <select id="gender" class="sel">
+                    <option>성별</option>
+                    <option value="남">남</option>
+                    <option value="여">여</option>
+                </select>
+            </span>
+                <span class="error_next_box">필수 정보입니다.</span>
+            </div>
+
+            <div class="form_space">
+                <button type="button" id="show" class="ui black button">가입하기</button>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>

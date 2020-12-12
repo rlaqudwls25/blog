@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/simantic-ui/semantic/semantic.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/common.css">
+
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <script src="stylesheets/simantic-ui/semantic/semantic.js"></script>
+
+    <script type="text/javascript">
+        // 버튼 누르면 숨겨져 있는 게시물 생성
+        function dis(){
+            if($('#dis').css('display') == 'none'){
+                $('#dis').show();
+            }else{
+                $('#dis').hide();
+            }
+        }
+
+        // 버튼 누르면 숨겨져 있는 메뉴 생성
+        $(function (){
+            $(".view-ui").on("click", function (event){
+                event.preventDefault();
+
+                $(this).toggleClass("open");
+                $('.overlay').toggleClass('visible');
+
+                // $(this).toggleClass('active');
+                // $('.overlay').toggleClass('visible');
+            });
+        });
+    </script>
+
+</head>
+
+<body>
+
+<div class="ui inverted vertical masthead center aligned segment">
+    <div class="ui container">
+        <div class="ui large secondary inverted pointing menu">
+            <a class="view-ui item">
+                <i class="sidebar icon"></i>
+                Menu
+            </a>
+            <a href="main.html" class="item"><i class="home icon"></i>Blog</a>
+            <a href="admin.html" class="item"><i class="cogs icon"></i>관리</a>
+            <a href="write.html" class="item" ><i class="edit icon"></i>글쓰기</a>
+            <div class="right item">
+                <a href="login.html" class="ui inverted button">로그인</a>
+                <div class="space_main">
+                </div>
+                <a href="register.html" class="ui inverted button">회원가입</a>
+            </div>
+            <div class="ui icon input">
+                <input type="text">
+                <i class="inverted circular search link icon"></i>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 메인 상단 -->
+<div id="main_div">
+    <div class="main_top">
+        <h1>
+            <a class="header" href="">Title</a></h1>
+        <div class="extra">
+            <a href="">
+                <span>Description</span>
+            </a>
+        </div>
+        <div class="description">
+            <p></p>
+        </div>
+        <div class="extra">
+            <a href="">
+                <span>Additional Details</span>
+            </a>
+        </div>
+        <div class="ui items">
+            <div class="item">
+                <div class="image">
+                    <a href="detail.html">
+                        <img src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 서브 메인 -->
+        <div class="sub_main">
+            <div class="ui items">
+                <div class="item" style="margin: 30px 0">
+                    <div class="image_sub">
+                        <img class="image_sub" src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                    </div>
+                    <div class="sub_content">
+                        <h1>
+                            <a class="header">Title</a></h1>
+                        <div class="extra">
+                            <a href="">
+                                <span>Description</span>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p></p>
+                        </div>
+                        <div class="extra">
+                            <a href="">
+                                Additional Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image_sub">
+                        <img class="image_sub" src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                    </div>
+                    <div class="sub_content">
+                        <h1>
+                            <a class="header">Title</a></h1>
+                        <div class="extra">
+                            <a href="">
+                                <span>Description</span>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p></p>
+                        </div>
+                        <div class="extra">
+                            <a href="">
+                                <span>Additional Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="dis" class="sub_main" style="display: none">
+            <div class="ui items">
+                <div class="item" style="margin: 30px 0">
+                    <div class="image_sub">
+                        <img class="image_sub" src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                    </div>
+                    <div class="sub_content">
+                        <h1>
+                            <a class="header">Title</a></h1>
+                        <div class="extra">
+                            <a href="">
+                                <span>Description</span>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p></p>
+                        </div>
+                        <div class="extra">
+                            <a href="">
+                                Additional Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="image_sub">
+                        <img class="image_sub" src="https://t1.daumcdn.net/cfile/tistory/99D19A3F5B97EAA30B">
+                    </div>
+                    <div class="sub_content">
+                        <h1>
+                            <a class="header">Title</a></h1>
+                        <div class="extra">
+                            <a href="">
+                                <span>Description</span>
+                            </a>
+                        </div>
+                        <div class="description">
+                            <p></p>
+                        </div>
+                        <div class="extra">
+                            <a href="">
+                                <span>Additional Details</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 버튼 누르면 게시물 생성 -->
+        <button id='show' class="ui black button" onclick="dis()">MORE POST</button>
+    </div>
+</div>
+
+
+<div class="overlay">
+    <nav class="menu">
+        <div class="sidebar_text">
+            <a href="">전체 게시글</a>
+        </div>
+        <div class="sidebar_text">
+            <a href="">Web</a>
+        </div>
+        <div class="sidebar_text">
+            <a href="">Javascript</a>
+        </div>
+        <div class="sidebar_text">
+            <a href="">Java</a>
+        </div>
+        <div class="sidebar_text">
+            <a href="">기타</a>
+        </div>
+    </nav>
+</div>
+
+<div class="footer">
+    <div class="ui stackable inverted divided equal height stackable grid">
+        <div class="sns-go">
+            <h4 class="ui inverted header">Designed by 병진</h4>
+            <ul>
+                <li>
+                    <a href="#" onclick="javascript:window.open('http://share.naver.com/web/shareView.nhn?url=' +encodeURIComponent(document.URL)+'&title='+encodeURIComponent(document.title), 'naversharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Naver" ><img src="images/naver.png" width="40" alt="네이버 블러그 공유하기"></a>
+                </li>
+                <li>
+                    <a href="#" onclick="javascript:window.open('https://www.facebook.com/sharer/sharer.php?u=' +encodeURIComponent(document.URL)+'&t='+encodeURIComponent(document.title), 'facebooksharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Facebook" ><img src="images/facebook.png" width="40" alt="페이스북 공유하기"></a>
+                </li>
+                <li>
+                    <a href="#" onclick="javascript:window.open('https://twitter.com/intent/tweet?text=[%EA%B3%B5%EC%9C%A0]%20' +encodeURIComponent(document.URL)+'%20-%20'+encodeURIComponent(document.title), 'twittersharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false;" target="_blank" alt="Share on Twitter" ><img src="images/twiter.png" width="40" alt="트위터 공유하기"></a>
+                </li>
+                <li>
+                    <a href="javascript:shareKatalk()"><img src="images/kakaotalk.png" width="40" alt="카카오톡 공유하기"></a></li>
+                <li>
+                    <a href="#" onclick="javascript:window.open('https://story.kakao.com/s/share?url=' +encodeURIComponent(document.URL), 'kakaostorysharedialog', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes, height=400,width=600');return false;" target="_blank" alt="Share on kakaostory"><img src="images/story.png" width="40" alt="카카오스토리 공유하기"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

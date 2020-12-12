@@ -1,0 +1,100 @@
+/* 카테고리 관리 저장 버튼 */
+.ui_black_button{
+    background: lightgray;
+    color: black;
+    text-shadow: none;
+}
+/* 카테고리 div */
+.box_category{
+    width: 997px;
+    height: 80px;
+    border: solid 1px lightgray;
+    margin: 2px 2px 2px 2px;
+    background: white;
+}
+
+/* 전체 div 간격 */
+.main_post{
+    width: 1150px;
+    padding: 40px 40px;
+    float: right;
+    position: relative;
+}
+
+.lab_btn{
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    height: 100px;
+}
+
+/* 추가/삭제 배치 */
+.lab_add{
+    float: none;
+    display: block;
+    margin-left: 15px;
+    line-height: 50px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+button{
+    font-size: 16px;
+}
+
+.btn_g{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 1px;
+    height: 1px;
+    opacity: 1;
+}
+
+
+/* 버튼 div */
+.set_button{
+    margin-top: 10px;
+    text-align: right;
+    width: 997px;
+    height: 50px;
+}
+
+/* 버튼 div */
+button{
+    border-radius: 5px;
+}
+
+a{
+    color: black;
+}
+
+/* 카테고리 전체 div */
+.box_category_set{
+    position: relative;
+    padding: 25px 30px;
+    background-color: #f2f2f2;
+    height: 300px;
+    border: solid 1px lightgray;
+}
+
+/* 카테고리 div 간격 */
+.box_blog{
+    box-decoration: none;
+    border-radius: 0;
+    position: relative;
+    padding: 25px 30px;
+    background-color: #F2F2F2;
+    border: 1px solid lightgray;
+    height: 170px;
+}
+.box_visitor {
+    padding-bottom: 20px;
+}
+.box_visitor .count_visitor{
+    float: left;
+    padding: 0 24px 0 0;
+    margin-top: -1px;
+}

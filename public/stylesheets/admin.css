@@ -1,0 +1,125 @@
+/** 방문자 수 div*/
+.box_blog {
+    box-decoration:none;
+    border-radius:0;
+    position:relative;
+    background-color:#F2F2F2;
+    border:1px solid lightgray;
+    height:170px;
+    padding:25px 30px;
+}
+/* 방문자 수 div 간격 */
+.box_visitor {
+    padding-bottom:20px;
+}
+/* 오늘, 누적 방문수 div */
+.box_visitor .count_visitor {
+    float:left;
+    margin-top:-1px;
+    padding:0 24px 0 0;
+}
+/* 방문 숫자 */
+strong,p {
+    color:#000;
+    font-weight:700;
+}
+/* 오늘, 누적 방문수 div */
+.count_visitor dt {
+    font-size:13px;
+    font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,돋움,sans-serif;
+    color:#000;
+}
+/* 오늘, 누적 방문수 div */
+.count_visitor dd {
+    font-weight:700;
+    font-size:20px;
+    color:#000;
+    font-family:Noto Sans Medium,AppleSDGothicNeo-Regular,'Malgun Gothic','맑은 고딕',dotum,돋움,sans-serif;
+    padding:5px 0 0;
+}
+/* 최근 게시물 div */
+.post_main {
+    position:relative;
+    padding-top:30px;
+    height:600px;
+    margin:6px;
+}
+/* 최근 게시물 div 간격 */
+.post_main .tit_cont {
+    margin-bottom:12px;
+    margin-top:12px;
+}
+/* 최근 게시물 div 간격 및 색 */
+.list_top {
+    overflow:hidden;
+    background-color:#F2F2F2;
+    float:left;
+    position:relative;
+    width:217px;
+    height:258px;
+    border:1px solid #E0E5EE;
+    margin:6px 10px 6px 0;
+}
+
+dl,ul,ol,menu,li {
+    list-style:none;
+}
+
+.list_top .link_post {
+    display:block;
+    text-decoration:none;
+    margin:15px -5px 0;
+}
+
+.list_top .tit_top {
+    max-height:60px;
+    margin-bottom:12px;
+    line-height:20px;
+    font-family:"Noto Sans Regular",AppleSDGothicNeo,돋움,dotum,sans-serif;
+    font-size:14px;
+    background:none;
+}
+/* 최근 게시물 제목,내용 div 간격 */
+.txt_vellip {
+    display:0;
+    overflow:hidden;
+    -webkit-box-orient:vertical;
+    word-break:break-all;
+}
+
+.list_top .txt-top {
+    max-height:90px;
+    font-size:12px;
+    line-height:18px;
+    color:#000;
+    -webkit-line-clamp:5;
+}
+
+p {
+    margin-block-start:1em;
+    margin-block-end:1em;
+}
+
+ul {
+    display:block;
+    margin-block-start:1em;
+    margin-block-end:1em;
+    margin-inline-start:0;
+    margin-inline-end:0;
+    padding-inline-start:40px;
+}
+/* 전체 main div 규격 */
+.main_post {
+    width:1150px;
+    float:right;
+    position:relative;
+    padding:40px;
+}
+
+a {
+    color:#000;
+}
+
+dd,div {
+    display:block;
+}

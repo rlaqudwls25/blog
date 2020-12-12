@@ -1,0 +1,70 @@
+
+/* 로그인 폼 규격 */
+#login_form{
+    position: absolute;
+    margin: 200px 6%;
+    width: 500px;
+    left: 33%;
+}
+
+
+/* 아이디 비밀번호 박스 폼 규격 */
+.box{
+    display: block;
+    width: 440px;
+    height: 51px;
+    border: solid 1px #dadada;
+    padding: 10px 14px;
+    box-sizing: border-box;
+    background: #fff;
+    position: relative;
+}
+
+/* 아이디 비밀번호 배치 */
+.box.int_id{
+    padding-right: 45px;
+}
+.box.int_pass{
+    padding-right: 40px;
+}
+
+/* 회원가입 버튼 */
+#show2{
+    width: 440px;
+    height: 50px;
+}
+
+/* 아이디 비밀번호 크기 */
+h3{
+    margin: 19px 0 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/* input 입력창 규격 */
+.int{
+    display: block;
+    width:100%;
+    height: 34px;
+    border: none;
+    font-size: 15px;
+    background: #fff;
+    position: relative;
+}
+
+/* 로그인, 회원가입 버튼 규격 */
+#show{
+     width: 440px;
+     height: 50px;
+}
+
+/* 버튼 사이 간격 */
+.form_space{
+    padding: 10px;
+}
+
+
+
+
+
+
