@@ -21,7 +21,7 @@
 <span>-------------------------------------------------------------------------------</span>
 
 <div>방문자관리 화면</div>
-<img src="https://user-images.githubusercontent.com/65752350/101985683-f36e0200-3ccc-11eb-90a6-ce90bebbd099.jpg" width="50%"></img>
+<img src="https://user-images.githubusercontent.com/65752350/101985932-37add200-3cce-11eb-9dc2-16575361b8cd.jpg" width="50%"></img>
 <br>
 <span>-------------------------------------------------------------------------------</span>
 
