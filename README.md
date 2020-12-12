@@ -1,3 +1,3 @@
 # blog
 
-![Github logo](/
+![Github logo](/images/메인.jpg)
