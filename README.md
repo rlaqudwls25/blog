@@ -2,7 +2,7 @@
 
 <div>메인 화면</div>
 <img src="https://user-images.githubusercontent.com/65752350/101985207-ee5b8380-3cc9-11eb-9e5a-5d649f5f9583.jpg" width="50%"></img>
-<span>--------------------------------------------------------------------------------------</span>
+<span>--------------------------------------------------------------------------------</span>
 
 <div>글 쓰기 화면</div>
 <img src="https://user-images.githubusercontent.com/65752350/101985687-f49f2f00-3ccc-11eb-91ee-43c30ce43a17.jpg" width="50%"></img>
