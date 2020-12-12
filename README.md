@@ -1,4 +1,5 @@
 # blog
 
-<strong>blog 메인화면</strong>
+<div>blog 메인화면</div style="color=red">
+
 <img src="https://user-images.githubusercontent.com/65752350/101985207-ee5b8380-3cc9-11eb-9e5a-5d649f5f9583.jpg" width="50%"></img>
