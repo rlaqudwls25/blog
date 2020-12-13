@@ -1,4 +1,7 @@
-# blog
+# Blog
+Tistory처럼 개인블로그 UI를 구현하였습니다.
+화면은 메인, 회원가입, 로그인, 글쓰기, 상세, 방문자관리, 카테로리관리, 게시물관리 으로 총 8개 입니다.
+
 
 <div>메인 화면</div>
 <img src="https://user-images.githubusercontent.com/65752350/101985207-ee5b8380-3cc9-11eb-9e5a-5d649f5f9583.jpg" width="50%"></img>
