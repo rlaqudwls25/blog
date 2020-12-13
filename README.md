@@ -7,7 +7,7 @@ Tistory처럼 개인블로그 UI를 구현하였습니다.
 <img src="https://user-images.githubusercontent.com/65752350/102004678-44760880-3d56-11eb-9fd4-d647eed105ec.png" width=70%></img>
 
 <h2>화면</h2>
-<p>구현한 화면 입니다.</p>
+<p>구현 결과 입니다.</p>
 <img src="https://user-images.githubusercontent.com/65752350/102005614-8191c900-3d5d-11eb-9d58-364b73ab88eb.JPG" width=70%></img>
 
 
